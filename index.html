@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andre Matos</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <img src="imagens/imc.png" alt="">
+        <section>
+            <h1>Calculadora de IMC</h1>
+        </section>
+    </header>
+    <main>
+        <section id="samp">
+            <div id="calculador">
+                <h3>Para culcular o IMC, digite seu peso em QUILOS (kg) e sua ALTURA (METROS) abaixo:</h3>
+                <input type="number" name="peso" id="peso" required placeholder="Peso em KG">
+                <input type="number" name="altura" id="altura" required placeholder="Altura em METROS"> <br>
+                <input type="button" value="Calcular" id="botao" onclick="calcular()">
+                <p id="res">Os dados aparecerão aqui:</p>
+            </div>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
