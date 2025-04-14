@@ -85,3 +85,7 @@ div#calculador > p {
     margin-top: 50px;
     padding: 10px;
 }
+
+h4 {
+    text-align: center;
+}
